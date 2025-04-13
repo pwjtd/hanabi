@@ -2,7 +2,15 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanabi", "Hanabi\Hanabi.csproj", "{F7FA2FF2-5919-4D49-98FA-A3B64BDD57E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanabi.Extensions", "Hanabi.Extensions\Hanabi.Extensions.csproj", "{81A98558-E3A2-4E72-9EBC-7851A94A40DD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{25946933-305E-4E31-BABF-5E80FB0909BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3BE749BF-A33F-4EA7-94F2-8FB228EE5129}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{1580157B-83C9-40E7-A2D5-B3B12891829D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleApi", "ExampleApi\ExampleApi.csproj", "{86D614E8-C8F5-427F-BC08-C819C11F610C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleApplicationLayer", "ExampleApplicationLayer\ExampleApplicationLayer.csproj", "{6F3B0739-3008-4084-A859-94A20481A0AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +22,18 @@ Global
 		{F7FA2FF2-5919-4D49-98FA-A3B64BDD57E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7FA2FF2-5919-4D49-98FA-A3B64BDD57E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7FA2FF2-5919-4D49-98FA-A3B64BDD57E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{81A98558-E3A2-4E72-9EBC-7851A94A40DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81A98558-E3A2-4E72-9EBC-7851A94A40DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81A98558-E3A2-4E72-9EBC-7851A94A40DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81A98558-E3A2-4E72-9EBC-7851A94A40DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86D614E8-C8F5-427F-BC08-C819C11F610C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D614E8-C8F5-427F-BC08-C819C11F610C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D614E8-C8F5-427F-BC08-C819C11F610C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D614E8-C8F5-427F-BC08-C819C11F610C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F3B0739-3008-4084-A859-94A20481A0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3B0739-3008-4084-A859-94A20481A0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3B0739-3008-4084-A859-94A20481A0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3B0739-3008-4084-A859-94A20481A0AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7FA2FF2-5919-4D49-98FA-A3B64BDD57E2} = {25946933-305E-4E31-BABF-5E80FB0909BA}
+		{86D614E8-C8F5-427F-BC08-C819C11F610C} = {1580157B-83C9-40E7-A2D5-B3B12891829D}
+		{6F3B0739-3008-4084-A859-94A20481A0AA} = {1580157B-83C9-40E7-A2D5-B3B12891829D}
 	EndGlobalSection
 EndGlobal
