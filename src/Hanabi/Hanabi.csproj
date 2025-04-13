@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Version>0.1.1</Version>
+        <PackageId>Hanabi</PackageId>
+        <Title>Hanabi</Title>
+        <Description>Simple command query dispatcher</Description>
+        <PackageTags>cqrs</PackageTags>
+        <Authors>pwjtd</Authors>
+        <TargetFramework>net9.0</TargetFramework>
+        <LangVersion>Latest</LangVersion>
+        <RepositoryUrl>https://github.com/pwjtd/hanabi</RepositoryUrl>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>logo.png</PackageIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="logo.png" Pack="true" PackagePath=""/>
+        <None Include="README.md" Pack="true" PackagePath=""/>
+    </ItemGroup>
+    
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.4" />
+    </ItemGroup>
+
+</Project>

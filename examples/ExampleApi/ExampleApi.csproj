@@ -8,7 +8,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\ExampleApplicationLayer\ExampleApplicationLayer.csproj" />
-      <ProjectReference Include="..\Hanabi\Hanabi.csproj" />
     </ItemGroup>
 
 </Project>
