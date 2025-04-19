@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <Version>0.1.1</Version>
+        <Version>1.0.0</Version>
         <PackageId>Hanabi</PackageId>
         <Title>Hanabi</Title>
-        <Description>Simple command query dispatcher</Description>
-        <PackageTags>cqrs</PackageTags>
+        <Description>Simple command query mediator</Description>
+        <PackageTags>mediator</PackageTags>
         <Authors>pwjtd</Authors>
         <TargetFramework>net9.0</TargetFramework>
         <LangVersion>Latest</LangVersion>
