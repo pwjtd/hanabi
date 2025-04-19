@@ -1,1 +1,1 @@
-**Hanabi** is a minimalistic Command-Query dispatcher for .NET for my own projects, but feel free to use it
+**Hanabi** is a Command-Query mediator for .NET for my own projects, but feel free to use it
